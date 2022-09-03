@@ -1,3 +1,26 @@
-Learn About Cookies
+-- Learn About Cookies
 
 Error.captureStackTrace();
+
+-- what is async,await
+
+-- Differencce Between req.params and req.body
+
+-- What is useFindAndModify property in mongo.findByIDAndUpdate(req.user.id,newUserData,{})
+
+-- findByID properties like new,runValidator,useFindAndModify
+
+-- ObjectReference in Order Table Schema 
+product: {
+        type: mongoose.Schema.ObjectId,
+        ref: "Product",
+        required: true,
+      }
+
+
+--  const order = await Order.finById(req.params._id).populate(
+    "user",
+    "name email"
+  );
+
+
